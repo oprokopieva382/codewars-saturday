@@ -71,3 +71,12 @@ function oddOrEven(array) {
 var number = function (array) {
   return array.map((el, index) => `${index + 1}: ${el}`);
 };
+//
+function rentalCarCost(d) {
+  let dayCost = d * 40;
+  if (d >= 7) {
+    return dayCost - 50;
+  } else if (d >= 3) {
+    return dayCost - 20;
+  } else return dayCost;
+}
