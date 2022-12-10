@@ -38,3 +38,5 @@ function index(array, n) {
     return array[n] ** n;
   }
 }
+//
+const invert = (array) => array.map((num) => -num);
