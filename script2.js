@@ -40,3 +40,7 @@ function index(array, n) {
 }
 //
 const invert = (array) => array.map((num) => -num);
+//
+String.prototype.toJadenCase = function () {
+  return this.replace(/(?:^|\s)\S/g, (word) => word.toUpperCase());
+};
