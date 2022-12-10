@@ -24,3 +24,5 @@ function arithmetic(a, b, operator) {
 }
 //Function 2 - squaring an argument
 const square = (n) => n * n;
+//
+const arrayDiff = (a, b) => a.filter((item) => !b.includes(item));
