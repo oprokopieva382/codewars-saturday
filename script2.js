@@ -26,3 +26,7 @@ function arithmetic(a, b, operator) {
 const square = (n) => n * n;
 //
 const arrayDiff = (a, b) => a.filter((item) => !b.includes(item));
+//
+function evenOrOdd(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
