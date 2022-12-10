@@ -30,3 +30,11 @@ const arrayDiff = (a, b) => a.filter((item) => !b.includes(item));
 function evenOrOdd(number) {
   return number % 2 === 0 ? "Even" : "Odd";
 }
+//
+function index(array, n) {
+  if (array[n] == undefined) {
+    return -1;
+  } else {
+    return array[n] ** n;
+  }
+}
