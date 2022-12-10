@@ -34,3 +34,11 @@ function getSum(a, b) {
 function past(h, m, s) {
   return h * 3600000 + m * 60000 + s * 1000;
 }
+//
+function removeEveryOther(arr) {
+  let res = [];
+  for (let i = 0; i < arr.length; i += 2) {
+    res.push(arr[i]);
+  }
+  return res;
+}
