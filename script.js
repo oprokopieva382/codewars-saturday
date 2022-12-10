@@ -80,3 +80,10 @@ function rentalCarCost(d) {
     return dayCost - 20;
   } else return dayCost;
 }
+//
+function isPalindrome(x) {
+  const lowercaseInput = x.toLowerCase();
+  const forward = lowercaseInput;
+  const backward = lowercaseInput.split("").reverse().join("");
+  return forward === backward;
+}
