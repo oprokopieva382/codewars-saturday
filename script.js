@@ -98,3 +98,7 @@ function tribonacci(signature, n) {
 function sum(a, b) {
   return a + b;
 }
+//Grasshopper - Debug sayHello
+function sayHello(name) {
+  return "Hello, " + name;
+}
