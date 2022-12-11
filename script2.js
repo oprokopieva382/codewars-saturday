@@ -98,3 +98,10 @@ function getDivisorsCnt(n) {
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
+//
+function abbrevName(name) {
+  return name
+    .split(" ")
+    .map((el) => el[0].toUpperCase())
+    .join(".");
+}
