@@ -94,3 +94,7 @@ function getDivisorsCnt(n) {
   }
   return output;
 }
+//
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
