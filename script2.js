@@ -135,3 +135,7 @@ var maxSequence = function (arr) {
   }
   return ans;
 };
+//
+function move(position, roll) {
+  return position + roll * 2;
+}
