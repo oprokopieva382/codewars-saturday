@@ -113,3 +113,12 @@ function countSmileys(arr) {
 function century(year) {
   return Math.ceil(year / 100);
 }
+//
+const rot13 = (message) => {
+  const originalAlpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const cipher = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+  return message.replace(
+    /[a-z]/gi,
+    (letter) => cipher[originalAlpha.indexOf(letter)]
+  );
+};
