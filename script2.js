@@ -109,3 +109,7 @@ function abbrevName(name) {
 function countSmileys(arr) {
   return arr.filter((v) => v.match(/(:|;)(-|~)?(\)|D)/)).length;
 }
+//
+function century(year) {
+  return Math.ceil(year / 100);
+}
