@@ -153,3 +153,7 @@ function domainName(url) {
   let domain = sourceString.split(".")[0];
   return domain;
 }
+//
+function getAge(inputString) {
+  return Number(inputString[0]);
+}
