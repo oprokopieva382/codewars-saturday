@@ -139,3 +139,7 @@ var maxSequence = function (arr) {
 function move(position, roll) {
   return position + roll * 2;
 }
+//
+function opposite(number) {
+  return -number;
+}
