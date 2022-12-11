@@ -105,3 +105,7 @@ function abbrevName(name) {
     .map((el) => el[0].toUpperCase())
     .join(".");
 }
+//
+function countSmileys(arr) {
+  return arr.filter((v) => v.match(/(:|;)(-|~)?(\)|D)/)).length;
+}
